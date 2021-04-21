@@ -2,11 +2,68 @@
 
 <html>
     <head>
-        <title>Sample Website</title>
+        <title>Julio Reviews | Home</title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Reggae+One&&family=Sriracha&display=swap" rel="stylesheet">
     </head>
-
+    
     <body>
-        <h1>My Website</h1>
-        <p>This is where more information will go.</p>
+        <header>
+            <!-- site navigation -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="404.html">Reviews</a></li>
+                    <li><a href="404.html">Top Picks</a></li>
+                </ul>
+            </nav>
+        </header>
+            <div id="hero">
+                <h1>Julio's Music Reviews</h1>
+            </div>
+        <div class="container">
+            <section id="latest">
+                <h2>Latest Review</h2>
+                <article>
+                    <h3>Random Access Memories - Daft Punk</h3>
+                    <img src="images/ram.jpg">
+                    <h4><em>After the French House duo announced their separation, I decided to take a second look at their star-studded last album.</em></h4>
+                    <p>This album is a very unique entry in the Daft Punk catalog. The duo turned away from their typical house production to create a more tradition disco and pop sound. Daft Punk also collaborated with many legendary musicians including Nile Rogers of Chic, Pharrell Williams, and Julian Casablances of The Strokes to name a few. Overall, the album is one of they've best ever made. </p>
+                </article>
+                <p><a href="404.html">Click to see more reviews &rarr;</a></p>
+            </section>
+            
+            <section id="wallpapers">
+                <h2>Phone Wallpapers</h2>
+                <h4>Here's some wallpapers I've edited for use with iPhone. Click the image to save it.</h4>
+                <a href="images/daftpunkwp.png" target="_blank"><img src="images/daftpunkwp.png"></a>
+                <a href="images/sbwp.png" target="_blank"><img src="images/sbwp.png"></a>
+                <a href="images/citymorguewp.png" target="_blank"><img src="images/citymorguewp.png"></a>
+            </section>
+            
+            <section id="suggestions">
+                <h2>Suggestions</h2>
+                <p>Type in songs or albums you would like to see me review next!</p>
+                <form>
+                    <input name="suggestion" type="text">
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+
+            <section id="about">
+                <h2>About Me</h2>
+                <img src="images/julio.jpg">
+                <p>Hello! I'm Julio Canales, a junior studying Computer Science and Music Industry Studies at Loyola University New Orleans. I'm a passionate music listener which is how I got into reviewing. Thank you for visiting my site and I hope you enjoy your stay!</p>
+            </section>
+        </div>
+
+        <footer>
+            <p><a href="#hero">&uarr; Back to top</a></p>
+            <p>&copy; Julio Canales 2021.</p>
+        </footer>
     </body>
 </html>
